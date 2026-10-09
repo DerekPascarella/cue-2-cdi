@@ -1,0 +1,6 @@
+# .NET build intermediates
+bin/
+obj/
+
+# Build output / packaged binaries (regenerate with build.bat)
+_releases/

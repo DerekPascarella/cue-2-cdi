@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>cue-2-cdi</AssemblyName>
+    <RootNamespace>CueToCdi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="_github\**\*.cs;codex-scratch\**\*.cs;claude-scratch\**\*.cs;tests\**\*.cs" />
+  </ItemGroup>
+</Project>
