@@ -1,7 +1,7 @@
 # CUE to CDI Converter
 A command-line utility to convert CUE-based disc images into the DiscJuggler format.
 
-cue-2-cdi reads a CUE sheet together with its referenced track files and writes a matching `.cdi` file. It handles data discs, audio CDs, Video CDs, CD+G, and discs that mix data and audio tracks. It follows the structure, command-line usage, and build conventions of cue-2-ccd.
+cue-2-cdi reads a CUE sheet together with its referenced track files and writes a matching `.cdi` file. It handles data discs, audio CDs, Video CDs, CD+G, and discs that mix data and audio tracks. It does not convert multi-session disc images to CDI (e.g., those commonly used with the SEGA Dreamcast).
 
 Raw sectors are preserved byte-for-byte. Cooked Mode 1 sectors are expanded with their sync pattern, header, EDC, and ECC. Cooked Mode 2 sectors receive their missing sync pattern and header, retaining all 2336 source bytes.
 
